@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:id="@+id/ll1" android:gravity="center">
+
+    <Button
+        android:id="@+id/s1_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solve Linear Equation in 2 variables" android:textStyle="bold" android:textSize="17dp"/>
+
+    <Button
+        android:id="@+id/s1_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solve Quadratic Equation" android:textStyle="bold" android:textSize="17dp"/>
+
+    <Button
+        android:id="@+id/s1_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solve Cubic Equation" android:textSize="17dp" android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/s1_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evaluate Expressions" android:textSize="17dp" android:textStyle="bold"/>
+</LinearLayout>
